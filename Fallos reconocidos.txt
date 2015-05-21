@@ -1,0 +1,4 @@
+Falla el contador de PP de los movimientos, porque al estar declarados como
+static, los movimientos son compartidos por todos los pokémon, esto quiere decir
+que si dos pokémon tienen por ejemplo terremoto, y uno lo hace, el otro
+pokémon verá reducido los pp de su movimiento tambien.

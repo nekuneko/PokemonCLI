@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C80FBD11AA36B1300A7A8B6 /* interfaz.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C80FBD01AA36B1300A7A8B6 /* interfaz.cpp */; };
+		0C80FBD31AA36D0000A7A8B6 /* pokemon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C80FBD21AA36D0000A7A8B6 /* pokemon.cpp */; };
+		0C80FBD61AA38EBE00A7A8B6 /* movimientos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C80FBD41AA38EBE00A7A8B6 /* movimientos.cpp */; };
+		0CABB34C1AA35D3400F4DE47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CABB34A1AA35D3400F4DE47 /* main.cpp */; };
+		0CD676301AA6F15200A748AD /* efectividad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6762F1AA6F15200A748AD /* efectividad.cpp */; };
+		0CD676321AA8CD4000A748AD /* entrenador.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CD676311AA8CD4000A748AD /* entrenador.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0CABB33B1AA35D1700F4DE47 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C49175D1AA5C9ED00349279 /* pokemondb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pokemondb.hpp; sourceTree = "<group>"; };
+		0C49175E1AA5CE3800349279 /* entrenador.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entrenador.hpp; sourceTree = "<group>"; };
+		0C80FBCF1AA36B1300A7A8B6 /* interfaz.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = interfaz.hpp; sourceTree = "<group>"; };
+		0C80FBD01AA36B1300A7A8B6 /* interfaz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interfaz.cpp; sourceTree = "<group>"; };
+		0C80FBD21AA36D0000A7A8B6 /* pokemon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pokemon.cpp; sourceTree = "<group>"; };
+		0C80FBD41AA38EBE00A7A8B6 /* movimientos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movimientos.cpp; sourceTree = "<group>"; };
+		0C80FBD51AA38EBE00A7A8B6 /* movimientos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = movimientos.hpp; sourceTree = "<group>"; };
+		0C80FBD71AA3967500A7A8B6 /* movimientosdb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = movimientosdb.hpp; sourceTree = "<group>"; };
+		0C80FBD81AA3A9C900A7A8B6 /* efectividad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = efectividad.hpp; sourceTree = "<group>"; };
+		0C80FBD91AA3BA6F00A7A8B6 /* tipos.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tipos.hpp; sourceTree = "<group>"; };
+		0CABB33D1AA35D1700F4DE47 /* PokemonCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokemonCLI; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CABB3481AA35D3400F4DE47 /* pokemon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pokemon.hpp; sourceTree = "<group>"; };
+		0CABB34A1AA35D3400F4DE47 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0CD6762F1AA6F15200A748AD /* efectividad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = efectividad.cpp; sourceTree = "<group>"; };
+		0CD676311AA8CD4000A748AD /* entrenador.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = entrenador.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0CABB33A1AA35D1700F4DE47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CABB3341AA35D1700F4DE47 = {
+			isa = PBXGroup;
+			children = (
+				0CABB33F1AA35D1700F4DE47 /* PokemonCLI */,
+				0CABB33E1AA35D1700F4DE47 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0CABB33E1AA35D1700F4DE47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0CABB33D1AA35D1700F4DE47 /* PokemonCLI */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0CABB33F1AA35D1700F4DE47 /* PokemonCLI */ = {
+			isa = PBXGroup;
+			children = (
+				0CABB34A1AA35D3400F4DE47 /* main.cpp */,
+				0CABB3481AA35D3400F4DE47 /* pokemon.hpp */,
+				0C80FBD21AA36D0000A7A8B6 /* pokemon.cpp */,
+				0C80FBCF1AA36B1300A7A8B6 /* interfaz.hpp */,
+				0C80FBD01AA36B1300A7A8B6 /* interfaz.cpp */,
+				0C80FBD51AA38EBE00A7A8B6 /* movimientos.hpp */,
+				0C80FBD41AA38EBE00A7A8B6 /* movimientos.cpp */,
+				0C80FBD81AA3A9C900A7A8B6 /* efectividad.hpp */,
+				0CD6762F1AA6F15200A748AD /* efectividad.cpp */,
+				0C80FBD91AA3BA6F00A7A8B6 /* tipos.hpp */,
+				0C80FBD71AA3967500A7A8B6 /* movimientosdb.hpp */,
+				0C49175D1AA5C9ED00349279 /* pokemondb.hpp */,
+				0C49175E1AA5CE3800349279 /* entrenador.hpp */,
+				0CD676311AA8CD4000A748AD /* entrenador.cpp */,
+			);
+			path = PokemonCLI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0CABB33C1AA35D1700F4DE47 /* PokemonCLI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0CABB3441AA35D1700F4DE47 /* Build configuration list for PBXNativeTarget "PokemonCLI" */;
+			buildPhases = (
+				0CABB3391AA35D1700F4DE47 /* Sources */,
+				0CABB33A1AA35D1700F4DE47 /* Frameworks */,
+				0CABB33B1AA35D1700F4DE47 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonCLI;
+			productName = PokemonCLI;
+			productReference = 0CABB33D1AA35D1700F4DE47 /* PokemonCLI */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0CABB3351AA35D1700F4DE47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = UCA;
+				TargetAttributes = {
+					0CABB33C1AA35D1700F4DE47 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 0CABB3381AA35D1700F4DE47 /* Build configuration list for PBXProject "PokemonCLI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0CABB3341AA35D1700F4DE47;
+			productRefGroup = 0CABB33E1AA35D1700F4DE47 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0CABB33C1AA35D1700F4DE47 /* PokemonCLI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CABB3391AA35D1700F4DE47 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C80FBD11AA36B1300A7A8B6 /* interfaz.cpp in Sources */,
+				0CD676321AA8CD4000A748AD /* entrenador.cpp in Sources */,
+				0C80FBD31AA36D0000A7A8B6 /* pokemon.cpp in Sources */,
+				0C80FBD61AA38EBE00A7A8B6 /* movimientos.cpp in Sources */,
+				0CD676301AA6F15200A748AD /* efectividad.cpp in Sources */,
+				0CABB34C1AA35D3400F4DE47 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0CABB3421AA35D1700F4DE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0CABB3431AA35D1700F4DE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0CABB3451AA35D1700F4DE47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PokemonCLI/frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CABB3461AA35D1700F4DE47 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PokemonCLI/frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0CABB3381AA35D1700F4DE47 /* Build configuration list for PBXProject "PokemonCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CABB3421AA35D1700F4DE47 /* Debug */,
+				0CABB3431AA35D1700F4DE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CABB3441AA35D1700F4DE47 /* Build configuration list for PBXNativeTarget "PokemonCLI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CABB3451AA35D1700F4DE47 /* Debug */,
+				0CABB3461AA35D1700F4DE47 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0CABB3351AA35D1700F4DE47 /* Project object */;
+}
