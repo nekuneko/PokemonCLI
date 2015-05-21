@@ -1,4 +1,4 @@
-#include "efectividad.hpp"
+#include "efectividad.h"
 
 float efectividad (tipos movimiento, tipos rival)
 {

@@ -1,13 +1,15 @@
-#ifndef _POKEMON_HPP_
-#define _POKEMON_HPP_
+#ifndef POKEMON_H
+#define POKEMON_H
 
-#include <string>				// Para uso de cadenas de caracteres (nombres).
-#include "tipos.hpp"			// Para usar tipos (Planta, Eléctrico, etc.).
-#include "movimientos.hpp"		// Para tener un vector de movimientos.
-#include "movimientosdb.hpp"	// Para movimientos predefinidos.
+#include <string>			// Para uso de cadenas de caracteres (nombres).
+#include "tipos.h"			// Para usar tipos (Planta, Eléctrico, etc.).
+#include "movimientos.h"	// Para tener un vector de movimientos.
+#include "movimientosdb.h"	// Para movimientos predefinidos.
 
 
 using namespace std;
+
+// TAD Pokémon, Clase Abstracta
 
 class Pokemon
 {
@@ -31,20 +33,26 @@ public:
 	
 	/* Destructor */
 //	~Pokemon();
-	
+
+// Métodos modificadores
 	void levelUp();			// Sube el Pokémon un nivel.
 	void verStats();		// Muestra los stats del Pokémon.
 	void verMovimientos();	// Lista los movimientos del Pokémon.
 	void atacar(Pokemon& rival, int sel);
-	
-//private:
-	
 //	void recibeDaño(Pokemon& rival, int sel);
-//	Imagen imagen;	// Imagen gráfica del Pokémon.
 	
-	string nombre;	// Nombre del Pokémon.
-	tipos tipo;  	// Tipo del Pokémon (Fuego, Agua, Planta, etc.).
-	bool salvaje;	// Si el Pokémon es salvaje se puede capturar.
+// Métodos observadores
+	string numero () { return numero_; }
+	string nombre () { return nombre_; }
+	tipos  tipo	  () { return tipo_;   }
+
+//private:
+	const string imagen_;	// Imagen gráfica del Pokémon.
+	const string numero_;	// Número del Pokémon en la Pokédex.
+	const string nombre_;	// Nombre del Pokémon.
+	const tipos  tipo_;  	// Tipo del Pokémon (Fuego, Agua, Planta, etc.).
+	
+	bool salvaje_;			// Si el Pokémon es salvaje se puede capturar.
 	
 	// Stats
 	unsigned stats[8];
@@ -62,4 +70,4 @@ public:
 	
 };
 
-#endif //_POKEMON_H_
+#endif // POKEMON_H

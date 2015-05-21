@@ -1,4 +1,4 @@
-#include "movimientos.hpp"
+#include "movimientos.h"
 
 Movimiento::Movimiento()	// Movimiento nulo.
 {

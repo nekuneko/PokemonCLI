@@ -1,6 +1,6 @@
 #include <cstdlib>	// Para srand() y rand()
 #include <ctime>	// Para	semilla aleatoria
-#include "entrenador.hpp"
+#include "entrenador.h"
 
 Entrenador::Entrenador(string nombre, enum genero genero)
 						 : nombre(nombre), genero(genero)

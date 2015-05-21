@@ -1,5 +1,5 @@
-#ifndef _TIPOS_HPP_
-#define _TIPOS_HPP_
+#ifndef TIPOS_H
+#define TIPOS_H
 
 enum tipos
 {
@@ -66,4 +66,4 @@ enum genero { masculino = 0, femenino = 1 };
 
 static const char* nom_gen[] = { "Masculino", "Femenino" };
 
-#endif	//_TIPOS_HPP_
+#endif	// TIPOS_HPP

@@ -1,7 +1,7 @@
 #ifndef _INTERFAZ_H_
 #define _INTERFAZ_H_
 
-#include "pokemon.hpp"	// TAD Pokemon.
+#include "pokemon.h"	// TAD Pokemon.
 
 void menuInicial	(Pokemon& pkm, Pokemon& rival);
 void combate		(Pokemon& pkm, Pokemon& rival);

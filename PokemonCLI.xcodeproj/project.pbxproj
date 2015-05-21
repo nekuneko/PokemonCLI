@@ -13,6 +13,8 @@
 		0CABB34C1AA35D3400F4DE47 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CABB34A1AA35D3400F4DE47 /* main.cpp */; };
 		0CD676301AA6F15200A748AD /* efectividad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6762F1AA6F15200A748AD /* efectividad.cpp */; };
 		0CD676321AA8CD4000A748AD /* entrenador.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CD676311AA8CD4000A748AD /* entrenador.cpp */; };
+		0CDE74691B0E077300EA2BB4 /* 383_groudon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE74671B0E077300EA2BB4 /* 383_groudon.cpp */; };
+		0CDE746C1B0E07A300EA2BB4 /* 382_kyogre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0CDE746A1B0E07A300EA2BB4 /* 382_kyogre.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,21 +30,25 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		0C49175D1AA5C9ED00349279 /* pokemondb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = pokemondb.hpp; sourceTree = "<group>"; };
-		0C49175E1AA5CE3800349279 /* entrenador.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = entrenador.hpp; sourceTree = "<group>"; };
-		0C80FBCF1AA36B1300A7A8B6 /* interfaz.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = interfaz.hpp; sourceTree = "<group>"; };
+		0C49175D1AA5C9ED00349279 /* pokemondb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pokemondb.h; sourceTree = "<group>"; };
+		0C49175E1AA5CE3800349279 /* entrenador.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = entrenador.h; sourceTree = "<group>"; };
+		0C80FBCF1AA36B1300A7A8B6 /* interfaz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interfaz.h; sourceTree = "<group>"; };
 		0C80FBD01AA36B1300A7A8B6 /* interfaz.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = interfaz.cpp; sourceTree = "<group>"; };
 		0C80FBD21AA36D0000A7A8B6 /* pokemon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pokemon.cpp; sourceTree = "<group>"; };
 		0C80FBD41AA38EBE00A7A8B6 /* movimientos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movimientos.cpp; sourceTree = "<group>"; };
-		0C80FBD51AA38EBE00A7A8B6 /* movimientos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = movimientos.hpp; sourceTree = "<group>"; };
-		0C80FBD71AA3967500A7A8B6 /* movimientosdb.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = movimientosdb.hpp; sourceTree = "<group>"; };
-		0C80FBD81AA3A9C900A7A8B6 /* efectividad.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = efectividad.hpp; sourceTree = "<group>"; };
-		0C80FBD91AA3BA6F00A7A8B6 /* tipos.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = tipos.hpp; sourceTree = "<group>"; };
+		0C80FBD51AA38EBE00A7A8B6 /* movimientos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movimientos.h; sourceTree = "<group>"; };
+		0C80FBD71AA3967500A7A8B6 /* movimientosdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = movimientosdb.h; sourceTree = "<group>"; };
+		0C80FBD81AA3A9C900A7A8B6 /* efectividad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = efectividad.h; sourceTree = "<group>"; };
+		0C80FBD91AA3BA6F00A7A8B6 /* tipos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tipos.h; sourceTree = "<group>"; };
 		0CABB33D1AA35D1700F4DE47 /* PokemonCLI */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PokemonCLI; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CABB3481AA35D3400F4DE47 /* pokemon.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = pokemon.hpp; sourceTree = "<group>"; };
+		0CABB3481AA35D3400F4DE47 /* pokemon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pokemon.h; sourceTree = "<group>"; };
 		0CABB34A1AA35D3400F4DE47 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0CD6762F1AA6F15200A748AD /* efectividad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = efectividad.cpp; sourceTree = "<group>"; };
 		0CD676311AA8CD4000A748AD /* entrenador.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = entrenador.cpp; sourceTree = "<group>"; };
+		0CDE74671B0E077300EA2BB4 /* 383_groudon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 383_groudon.cpp; sourceTree = "<group>"; };
+		0CDE74681B0E077300EA2BB4 /* 383_groudon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 383_groudon.h; sourceTree = "<group>"; };
+		0CDE746A1B0E07A300EA2BB4 /* 382_kyogre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 382_kyogre.cpp; sourceTree = "<group>"; };
+		0CDE746B1B0E07A300EA2BB4 /* 382_kyogre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 382_kyogre.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,22 +81,42 @@
 		0CABB33F1AA35D1700F4DE47 /* PokemonCLI */ = {
 			isa = PBXGroup;
 			children = (
+				0CDE746D1B0E087000EA2BB4 /* BDmovimientos */,
+				0CDE74661B0E06E100EA2BB4 /* BDpokemon */,
 				0CABB34A1AA35D3400F4DE47 /* main.cpp */,
-				0CABB3481AA35D3400F4DE47 /* pokemon.hpp */,
+				0CABB3481AA35D3400F4DE47 /* pokemon.h */,
 				0C80FBD21AA36D0000A7A8B6 /* pokemon.cpp */,
-				0C80FBCF1AA36B1300A7A8B6 /* interfaz.hpp */,
+				0C80FBCF1AA36B1300A7A8B6 /* interfaz.h */,
 				0C80FBD01AA36B1300A7A8B6 /* interfaz.cpp */,
-				0C80FBD51AA38EBE00A7A8B6 /* movimientos.hpp */,
+				0C80FBD51AA38EBE00A7A8B6 /* movimientos.h */,
 				0C80FBD41AA38EBE00A7A8B6 /* movimientos.cpp */,
-				0C80FBD81AA3A9C900A7A8B6 /* efectividad.hpp */,
+				0C80FBD81AA3A9C900A7A8B6 /* efectividad.h */,
 				0CD6762F1AA6F15200A748AD /* efectividad.cpp */,
-				0C80FBD91AA3BA6F00A7A8B6 /* tipos.hpp */,
-				0C80FBD71AA3967500A7A8B6 /* movimientosdb.hpp */,
-				0C49175D1AA5C9ED00349279 /* pokemondb.hpp */,
-				0C49175E1AA5CE3800349279 /* entrenador.hpp */,
+				0C80FBD91AA3BA6F00A7A8B6 /* tipos.h */,
+				0C80FBD71AA3967500A7A8B6 /* movimientosdb.h */,
+				0C49175D1AA5C9ED00349279 /* pokemondb.h */,
+				0C49175E1AA5CE3800349279 /* entrenador.h */,
 				0CD676311AA8CD4000A748AD /* entrenador.cpp */,
 			);
 			path = PokemonCLI;
+			sourceTree = "<group>";
+		};
+		0CDE74661B0E06E100EA2BB4 /* BDpokemon */ = {
+			isa = PBXGroup;
+			children = (
+				0CDE746A1B0E07A300EA2BB4 /* 382_kyogre.cpp */,
+				0CDE746B1B0E07A300EA2BB4 /* 382_kyogre.h */,
+				0CDE74671B0E077300EA2BB4 /* 383_groudon.cpp */,
+				0CDE74681B0E077300EA2BB4 /* 383_groudon.h */,
+			);
+			name = BDpokemon;
+			sourceTree = "<group>";
+		};
+		0CDE746D1B0E087000EA2BB4 /* BDmovimientos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BDmovimientos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,7 +177,9 @@
 			files = (
 				0C80FBD11AA36B1300A7A8B6 /* interfaz.cpp in Sources */,
 				0CD676321AA8CD4000A748AD /* entrenador.cpp in Sources */,
+				0CDE74691B0E077300EA2BB4 /* 383_groudon.cpp in Sources */,
 				0C80FBD31AA36D0000A7A8B6 /* pokemon.cpp in Sources */,
+				0CDE746C1B0E07A300EA2BB4 /* 382_kyogre.cpp in Sources */,
 				0C80FBD61AA38EBE00A7A8B6 /* movimientos.cpp in Sources */,
 				0CD676301AA6F15200A748AD /* efectividad.cpp in Sources */,
 				0CABB34C1AA35D3400F4DE47 /* main.cpp in Sources */,

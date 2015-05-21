@@ -3,8 +3,9 @@
 #include <cstdlib>			// Para srand, rand
 #include <ctime>			// Para time
 #include <cmath>			// Para cálculo de daño. (floor)
-#include "efectividad.hpp"	// Calculo de la efectividad de ataques.
-#include "pokemon.hpp"		// TAD Pokemon
+#include "efectividad.h"	// Calculo de la efectividad de ataques.
+#include "pokemon.h"		// TAD Pokemon
+
 
 Pokemon::Pokemon()	// Pokemon nulo.
 {

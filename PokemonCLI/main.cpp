@@ -1,11 +1,11 @@
 #include <iostream>				// Para E/S (system).
 #include <thread>				// std::this_thread::sleep_for
 #include <chrono>				// std::chrono::seconds
-#include "pokemon.hpp"			// TAD Pokémon
-#include "interfaz.hpp"			// Interfaz Combate
-#include "movimientosdb.hpp"	// Base de datos de movimientos
-//#include "pokemondb.hpp"		// Base de datos de pokemons
-//#include "entrenador.hpp"
+#include "pokemon.h"			// TAD Pokémon
+#include "interfaz.h"			// Interfaz Combate
+#include "movimientosdb.h"	// Base de datos de movimientos
+//#include "pokemondb.h"		// Base de datos de pokemons
+//#include "entrenador.h"
 
 int main(void)
 {
@@ -14,8 +14,14 @@ int main(void)
 	
 	/* Creador de Pokémon */
 	// nombre, tipo, salvaje, nivel, ps, ataque, defensa, ataque_esp, defensa_esp, velocidad.
-	Pokemon groudon	("Groudon", Tierra, 0, 100, 310, 305, 285, 205, 185, 185, llamarada, rayoSolar, terremoto, estallido);
-	Pokemon kyogre	("Kyogre", Agua, 1, 50, 310, 205, 185, 305, 285, 185, salpicar, surf, trueno, ventisca);
+	
+	Groudon groudon (0, 100, 310, 305, 285, 205, 185, 185,
+					 llamarada, rayoSolar, terremoto, estallido);
+	Kyogre kyogre	(1, 50, 310, 205, 185, 305, 285, 185,
+					 salpicar, surf, trueno, ventisca);
+	
+	//Pokemon groudon	("Groudon", Tierra, 0, 100, 310, 305, 285, 205, 185, 185, llamarada, rayoSolar, terremoto, estallido);
+	//Pokemon kyogre	("Kyogre", Agua, 1, 50, 310, 205, 185, 305, 285, 185, salpicar, surf, trueno, ventisca);
 	
 	//groudon.verStats();
 	//kyogre.verStats();

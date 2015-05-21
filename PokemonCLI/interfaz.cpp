@@ -4,8 +4,8 @@
 #include <thread>       // std::this_thread::sleep_for
 #include <chrono>		// std::chrono::seconds
 #include <cmath>		// Para floor
-#include "efectividad.hpp"	//Determinación de la efectividad
-#include "interfaz.hpp"
+#include "efectividad.h"	//Determinación de la efectividad
+#include "interfaz.h"
 
 void cuantoEfectivo (Pokemon& pkm, Pokemon& rival, int sel)
 {

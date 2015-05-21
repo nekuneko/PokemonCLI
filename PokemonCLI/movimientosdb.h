@@ -1,5 +1,5 @@
-#ifndef _MOVIMIENTOSDB_HPP_
-#define _MOVIMIENTOSDB_HPP_
+#ifndef  MOVIMIENTOSDB_H
+#define  MOVIMIENTOSDB_H
 
 #include "movimientos.hpp"
 
@@ -39,4 +39,4 @@ static Movimiento trueno	("Trueno    ", Eléctrico, "Especial", 110, 70, 10);
 /* Movimientos de tipo Tierra */
 
 
-#endif //_MOVIMIENTOSDB_HPP_
+#endif // MOVIMIENTOSDB_H

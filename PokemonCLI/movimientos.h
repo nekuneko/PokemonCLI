@@ -1,8 +1,8 @@
-#ifndef _MOVIMIENTOS_HPP_
-#define _MOVIMIENTOS_HPP_
+#ifndef  MOVIMIENTOS_H
+#define  MOVIMIENTOS_H
 
 #include <string>		// Para usar cadenas de caracteres (nombres).
-#include "tipos.hpp"	// Para usar tipos (Planta, Agua, etc.).
+#include "tipos.h"	// Para usar tipos (Planta, Agua, etc.).
 
 using namespace std;
 
@@ -22,4 +22,4 @@ public:
 	unsigned pp;
 };
 
-#endif //_MOVIMIENTOS_HPP_
+#endif // MOVIMIENTOS_HPP

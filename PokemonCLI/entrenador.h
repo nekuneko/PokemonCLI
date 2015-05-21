@@ -1,9 +1,9 @@
-#ifndef _ENTRENADOR_HPP_
-#define _ENTRENADOR_HPP_
+#ifndef ENTRENADOR_H
+#define ENTRENADOR_H
 
 #include <string>		// Para el nombre.
-#include "tipos.hpp"	// Para el género.
-#include "pokemon.hpp"	// TAD Pokémon
+#include "tipos.h"	// Para el género.
+#include "pokemon.h"	// TAD Pokémon
 
 class Entrenador
 {
@@ -24,4 +24,4 @@ public:
 	//       del equipo del entrenador.
 };
 
-#endif //_ENTRENADOR_HPP_
+#endif // ENTRENADOR_H
