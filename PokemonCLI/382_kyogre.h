@@ -21,6 +21,8 @@ public:
 			unsigned ps, unsigned ataque, unsigned defensa,
 			unsigned ataque_esp, unsigned defensa_esp, unsigned velocidad,
 			Movimiento mov1, Movimiento mov2, Movimiento mov3, Movimiento mov4);
+private:
+	static char*[11] imagen_;
 };
 
 

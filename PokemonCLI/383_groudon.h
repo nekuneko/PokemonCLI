@@ -16,7 +16,9 @@ class Groudon : public Pokemon
 public:
 	
 private:
-	
+	static string imagen_;
+	static string numero_;
+	static string nombre_;
 };
 
 

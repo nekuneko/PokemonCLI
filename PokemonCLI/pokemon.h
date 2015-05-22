@@ -18,7 +18,8 @@ public:
 	Pokemon();	// Pokémon nulo.
 	
 	/* Constructores alternativos */
-	Pokemon(string nombre, unsigned nivel, bool s);
+	Pokemon (string imagen, string numero, string nombre);
+	Pokemon (string nombre, unsigned nivel, bool s);
 	
 	Pokemon(string nombre, tipos tipo, bool salvaje, unsigned nivel,
 			unsigned ps, unsigned ataque, unsigned defensa,
